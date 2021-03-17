@@ -1,2 +1,1 @@
-# VEF-2VH05BU-JHB
-Public versíon
+# VEF-2VH05BU
