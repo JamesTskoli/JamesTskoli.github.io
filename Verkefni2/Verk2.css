@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.blikk{
+    height: 250px;
+    width: 250px;
+    animation: skopp 1s infinite ease-out;
+}
+
+.path835{
+    fill: rgb(0, 0, 0);
+    
+}
+
+.lauga{
+    fill: white;
+    animation: blikk 5.5s linear infinite;
+}
+
+.rauga{
+    fill: white;
+    animation: blikk 5.5s linear infinite;
+}
+
+.skugg{
+    background-color: rgb(8, 8, 8,0.1);
+    height: 10px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 102px;
+    bottom: -110px;
+    animation: minnka 1s infinite;
+}
+
+@keyframes skopp {
+    10%{transform: scaleX(1) scaleY(1.1);
+}
+    50%{
+        transform: translateY(240px) scaleY(0.4) scaleX(0.6);
+}
+    60%{
+        transform: translateY(160px) scaleY(0.8) scaleX(0.8)
+}
+    90%{
+        transform: scaleX(1) scaleY(1.5);
+}
+}
+
+@keyframes blikk {
+    0%{opacity: 1;}
+    80%{opacity: 1;}
+    90%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes minnka {
+    50%{
+        transform: scaleX(0.5);
+    }
+}
