@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="verk4.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>Spotify top 5 tracks <br>April 16.</caption>
+        <thead>
+            <tr>
+                <th scope="col">Song title</th>
+                <th scope="col">Artist</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Daily plays</th>
+                <th scope="col">Rank</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row" data-label="Song title">MONTERO</td>
+                <td data-label="Artist">Lil Nas X</td>
+                <td data-label="Genre">Pop rap</td>
+                <td data-label="Daily plays">7,996,867</td>
+                <td data-label="Rank">1</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Song title">Peaches</td>
+                <td data-label="Artist">Justin Bieber</td>
+                <td data-label="Genre">Pop</td>
+                <td data-label="Daily plays">7,078,626</td>
+                <td data-label="Rank">2</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Song title">RAPSTAR</td>
+                <td data-label="Artist">Polo G</td>
+                <td data-label="Genre">Rap</td>
+                <td data-label="Daily plays">4,453,602</td>
+                <td data-label="Rank">3</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Song title">Astronaut In The Ocean</td>
+                <td data-label="Artist">Masked Wolf</td>
+                <td data-label="Genre">Pop?</td>
+                <td data-label="Daily plays">4,193,696</td>
+                <td data-label="Rank">4</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Song title">deja vu</td>
+                <td data-label="Artist">Olivia Rodrigo</td>
+                <td data-label="Genre">Pop</td>
+                <td data-label="Daily plays">3,625,373</td>
+                <td data-label="Rank">5</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <form>
+        <label for="name">Nafn:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Netfang:</label><br>
+        <input type="email" id="netfang" name="netfang" required><br><br>
+
+        <label for="bday">Fæðingardagur:</label><br>
+        <input type="date" id="bday" name="bday" required><br><br>
+        
+        <label for="kyn">Kyn:</label>
+        <input type="radio" id="karl" name="kyn" value="karl" required>
+        <label for="karl">Karl</label>
+        <input type="radio" id="kona" name="kyn" value="kona">
+        <label for="kona">Kona</label>
+        <input type="radio" id="annað" name="kyn" value="annað">
+        <label for="annað">Annað</label><br><br>
+
+        <label for="tjekkbox">Hvert af þessum heimsálfum hefur þú ferðast til:</label><br><br>
+        <input type="checkbox" id="continent1" name="continent1" value="asia">
+        <label for="continent1"> Asía</label>
+        <input type="checkbox" id="continent2" name="continent2" value="africa">
+        <label for="continent2"> Afríka</label>
+        <input type="checkbox" id="continent3" name="continent3" value="europe">
+        <label for="continent3"> Evrópa</label>
+        <input type="checkbox" id="continent4" name="continent4" value="oceania">
+        <label for="continent4"> Eyjaálfa</label><br>
+        <input type="checkbox" id="continent5" name="continent5" value="NA">
+        <label for="continent5"> Norður Ameríka</label>
+        <input type="checkbox" id="continent6" name="continent6" value="SA">
+        <label for="continent6"> Suður Ameríka</label><br>
+        <input type="checkbox" id="continent7" name="continent7" value="artica">
+        <label for="continent7"> Suðurskautslandið</label><br><br>
+
+        <label for="drekka">Hvert af þessum er best:</label>
+        <select id="drekka" name="goslisti" form="gosform" required>
+            <option value="ekkert">Ekkert</option>
+            <option value="vatn">Vatn</option>
+            <option value="pepsi">Pepsi</option>
+            <option value="coke">Kók</option>
+            <option value="fanta">Fanta</option>
+            <option value="sprite">Sprite</option>
+            <option value="dew">Mountain dew</option>
+            <option value="sevup">7up</option>
+            <option value="pepper">DrPepper</option>
+            <option value="appel">Egils Appelsín</option>
+        </select> <br><br>
+
+        <label for="athugasemd">Athugasemdir</label>
+        <br>
+        <textarea id="athugasemd" name="athugasemd" rows="5" cols="60"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
