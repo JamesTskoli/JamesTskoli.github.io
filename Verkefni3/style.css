@@ -49,3 +49,51 @@
 .icon-tux:before {
   content: "\eabd";
 }
+
+.a{
+  color: steelblue;
+  font-size: 1.4em;
+}
+
+.b{
+  color: green;
+  font-style: oblique;
+  font-size: 0.5em;
+}
+
+.c{
+  color: hotpink;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.d{
+  color: red;
+  font-size: 1.8em;
+}
+
+.e{
+  color: purple;
+  font-size: 25px;
+}
+
+.f{
+  color: orange;
+  font-size: 15px;
+}
+
+.g{
+  color: blue;
+  font-size: 20px;
+}
+
+.h{
+  color: gold;
+}
+
+body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
